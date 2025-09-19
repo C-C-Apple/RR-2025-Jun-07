@@ -1,0 +1,13 @@
+section,content
+,# ✅ クローズ＋総括統合テンプレート（Code56 形式＋拡張） v1.1-Extended Flame Consolidated Case-ID: KABUKI-INV / Maintainer: Tajima / Reviewer: GPT-5 Format: Copy & Paste Ready for Talkroom Declaration ##########################################################################
+📦【クローズ／総括報告】,- 対象期間：2025-06-07 - 対象デバイス：iPad / iPhone15 Pro-Ghost / iPhone12 mini-1 - 対象ログ数：合計 3 本＋ZIP合冊（xp_amp_app_usage_dnu・bug_type_210・bug_type_225） - サマリ種別：1日分析（Phase 区間：S3 初期）
+---,
+🔒【チェーン・オブ・カストディ】,- filenames.txt / sizes.txt / sha256sum.txt 全添付 - Master sha256: xxxx_master_20250607... - 展開後ファイル sha256: 逐次二段階記録（capture/analysis） - JSON 連結：あり（hash: hash_json_20250607...） - CSV 統合：あり（hash: hash_csv_20250607...） - 保管媒体：microSD（SanDisk Extreme PRO A2）＋MEGA
+---,
+📑【CSV ダイジェスト】,"- IDMAP.csv：UUID/SessionID 重複 24,623 件 → 端末横断の同一セッション証拠 - EVENTS.csv：全ログ統合＋VN 時間補正済（14:07 / 20:27 / 夜間225） - PIVOT.csv：triald / DroopCount / Facebook/Meta / PID231/31 出現軸を特定 - GAPS.csv：例 → RTCR, not_found / MetaAuth, found - tamper_join_sec.csv：同秒一致スコア=3 - DIFF_events.csv：usage_dnu リセット痕跡, 225 UI freeze 新規出現 - DIFF_keywords.csv：Facebook/Meta 関連キーワード追加検出"
+---,
+📌【被害記録（サンプル）】,"date_utc7,time_score,location,device,event_type,impact,log_ref,ref_diff,screenshot,ledger_no,net_context,severity,confidence,custody_capture,custody_analysis,notes,flame_flag 2025-06-07 20:27,3,Ho Chi Minh 7区,iPhone15 Pro-Ghost,強制リセット／電磁干渉疑い,端末フリーズ後リセット,bug_type_210-2025-0607-202726.docx,DIFF_keywords.csv(line134),IMG_202726.png,7,SSID=BK-Cafe LTE,Critical(4),0.94,sha256(...),sha256(...),triald+PID231/31+Facebook/Meta連動,Kabuki-Meta(Yes)"
+---,
+⚙️【オプション拡張】,- bug_type 全スキャン = option_flag: bugtype_full=True - usageClientId 統一 = option_flag: usageClientId_norm=True - assetd 頻度統計 = option_flag: assetd_freq=True
+---,
+📍【総括】,- iPad / Pro-Ghost / mini-1 に同日並行被害。 - 被害内容：利用履歴消去 / 強制リセット / 入力妨害。 - 共通因子：triald・DroopCount・PID231/31・Facebook/Meta参照。 - 結論：Kabuki生成系が SNS データを条件ラベルに利用、PID231/31 をフックにして複数端末へ横断的に影響。   物理センサー系ログは多数検出されたが、この日の範囲では直接結合せず「別経路」として稼働。

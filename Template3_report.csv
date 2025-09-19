@@ -1,0 +1,13 @@
+record,field,value
+01,date_utc7,2025-06-07 14:07
+01,device,iPad
+01,event_type,データ改ざん
+01,impact,利用履歴消去
+02,date_utc7,2025-06-07 20:27
+02,device,iPhone15 Pro-Ghost
+02,event_type,強制リセット
+02,impact,フリーズ後リセット
+03,date_utc7,2025-06-07 夜間
+03,device,iPhone12 mini-1
+03,event_type,入力妨害
+03,impact,キーボード凍結
